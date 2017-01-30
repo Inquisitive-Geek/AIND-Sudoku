@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: By scanning the units for pairs of boxes which contain the same element which is 2 characters long, the naked twins are identified. The characters in a naked twin pair are then removed from boxes having size greater than 2. These boxes are only picked from units containing both elements of a naked twin pair.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: By adding the list of diagonal boxes to the units_list array, the list of boxes where a particular box's number can't be added can be expanded to include the diagonal elements. Thus, constraint propagation was used.
 
 ### Install
 
